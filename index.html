@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
+	<title>Deeper Talks - Question Games for Couples</title>
+	<meta name="description" content="This relationship app for couples will help you and your partner get to know each other deeper and strengthen your relationship.">
+	<meta charset="utf-8">
 <script>
 function getMobileOperatingSystem() {
 	var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
-      // Windows Phone must come first because its UA also contains "Android"
+    // Windows Phone must come first because its UA also contains "Android"
     if (/windows phone/i.test(userAgent)) {
         return "Windows Phone";
     }
-
     if (/android/i.test(userAgent)) {
         return "Android";
     }
-
     // iOS detection from: http://stackoverflow.com/a/9039885/177710
     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
         return "iOS";
@@ -40,13 +40,27 @@ function DetectAndServe(){
 div.fixed {
   position: fixed;
   width: 100%;
-  top: 100px;
+  top: 80px;
 } 
 </style>
 
-<body onload="DetectAndServe()" style="background-color:#c06c84;">
+<body style="background-color:#c06c84;" onload="DetectAndServe()"> <!--  -->
 	<div class="fixed">
-		<center>If site does not load automatically, click <a href="https://deepertalks.webflow.io/">here</a></center>
+		<center>
+			<img src="https://uploads-ssl.webflow.com/616f6fa02f563784e37c05ee/616f7334c09a21283dcf2b75_Group%20242.svg" loading="lazy" alt="Deeper Talks" width="300">
+			<p>
+			</p>
+			<p>
+			<a href="https://apps.apple.com/us/app/deeper-talks-relationships/id1590680216">
+			<img src="https://uploads-ssl.webflow.com/616f6fa02f563784e37c05ee/616f74e191a9cfd92c66d4ca_Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" loading="lazy" alt="App Store" style="width:160px;height:100px;margin:0px 10px"></a>
+			<a href="https://play.google.com/store/apps/details?id=com.Tarmi.GetDeeperTalks">
+			<img src="https://uploads-ssl.webflow.com/616f6fa02f563784e37c05ee/6170bf9e10421e51a5e6efb0_Google_Play_Store_badge_EN.svg" loading="lazy" alt="Google Play" style="width:160px;height:100px;margin:0px 10px"></a>
+			</p>
+			<p style="color: #fff; font-family: 'Avenirltstd book', sans-serif; font-size: 20px">
+			If site does not load automatically, click 
+			<a href="https://deepertalks.webflow.io/">here</a>
+			</p>
+		</center>
 	</div>
 </body>
 </html>
